@@ -72,8 +72,8 @@ precio_mediano_encuesta = indicadores_base["precio_mediano"]
 precio_default = 300.0  # Precio de venta elegido para el escenario académico; mediana de encuesta: USD 350.
 
 st.title(f"{NOMBRE_MAQUINA} · del mercado al diseño")
-st.caption(f"Laboratorio de Diseño de Máquinas · máquina semiautomática para empanadas de verde · Quito · horizonte comercial de 48 meses")
-st.info("La aplicación utiliza exclusivamente las 100 respuestas reales y anonimizadas de la última encuesta, realizada en Quito. Los escenarios comerciales y económicos son supuestos académicos editables; no son respuestas simuladas ni ventas observadas.")
+st.caption(f"Diseño de Máquinas · Máquina semiautomática para empanadas de verde · Quito · Horizonte comercial de 48 meses")
+st.info("La aplicación utiliza exclusivamente las 100 respuestas reales y anonimizadas de la encuesta realizada, realizada en Quito. Los escenarios comerciales y económicos son supuestos académicos editables; no son respuestas simuladas ni ventas observadas.")
 
 mensaje = st.session_state.pop("mensaje_encuesta", None)
 if mensaje:
