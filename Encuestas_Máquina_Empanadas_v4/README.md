@@ -6,7 +6,6 @@ Aplicación académica desarrollada con Python, Pandas, Plotly y Streamlit para 
 
 - Se utiliza exclusivamente la última encuesta entregada: 100 respuestas de Quito.
 - 56 personas indicaron que preparan empanadas de verde y 44 indicaron que no.
-- La base anterior de 54 respuestas y las otras versiones de encuestas no se combinan con esta.
 - El archivo fuente contiene un índice y las 16 preguntas, sin una columna independiente de identificación. La aplicación genera códigos anónimos internos `ANON-001` a `ANON-100`.
 - No se eliminan registros por coincidencia de respuestas.
 - Las preguntas posteriores a la pregunta filtro solo se analizan para quienes indicaron que sí preparan empanadas.
