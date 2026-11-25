@@ -26,7 +26,7 @@ from modelo import (
     URL_FUENTE_MERCADO,
 )
 
-NOMBRE_MAQUINA = "EmpanaMaq"  # Cambiar aquí el nombre visible de la aplicación.
+NOMBRE_MAQUINA = "PaFREIR"  # Cambiar aquí el nombre visible de la aplicación.
 BASE = Path(__file__).parent
 ARCHIVO_BASE = BASE / "encuesta_real.csv"
 ARCHIVO_ADICIONALES = BASE / "respuestas_adicionales.csv"
